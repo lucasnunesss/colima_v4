@@ -1,0 +1,12 @@
+.logo-div{
+  gap: 5px;
+}
+
+.logo-div .logo{
+ 
+  height: 100px;
+}
+
+.logo-div img{
+  object-fit: contain;
+}

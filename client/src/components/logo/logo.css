@@ -1,12 +1,13 @@
 .logo-div{
-  gap: 5px;
+  margin-right: auto;
+  margin-left: 0px;
 }
-
 .logo-div .logo{
- 
+  width: 250px;
   height: 100px;
 }
 
 .logo-div img{
   object-fit: contain;
+ 
 }

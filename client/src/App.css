@@ -69,6 +69,10 @@ img{
   
 }
 
+.icon:hover{
+  transform: scale(1.1);
+}
+
 .btn{
   color: black;
   border-radius: 5px;

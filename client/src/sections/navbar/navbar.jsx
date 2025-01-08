@@ -5,8 +5,13 @@ import "./navbar.css"
 import Redes from "../../components/redes/Redes"
 import { FaArrowTurnDown } from "react-icons/fa6";
 import { FiMenu } from "react-icons/fi";
+import Sidebar from "../../components/sidebar/Sidebar"
+import { useState } from "react"
 const Navbar = () => {
+  const [openSidebar, setOpenSidebar] = useState(false)
   return (
+    <>
+    <Sidebar openSidebar={openSidebar} onClose={()=>setOpenSidebar(!openSidebar)} />
     <nav className="flex-center navbar">
       <Logo />
       <div className="nav-links">
@@ -22,11 +27,12 @@ const Navbar = () => {
                 Saiba Mais
               <FaArrowTurnDown/>
           </Link>
-        <button className="flex-center icon menu-btn">
+        <button className={`${!openSidebar ? "flex-center icon menu-btn" : "sumir"}`} onClick={() => setOpenSidebar(!openSidebar)}>
           <FiMenu />
         </button>
       </div>
     </nav>
+    </>
   )
 }
 

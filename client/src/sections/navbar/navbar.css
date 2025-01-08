@@ -1,21 +1,22 @@
 .navbar{
   justify-content: space-between;
    background-color: #30526B; 
-
+  padding: 0 1rem;
   width: 100%;
   position: relative;
   z-index: 1000;
-  
+
 }
 
 .navbar .nav-links{
   display: flex;
-  gap: 1rem;
+  gap: 10rem;
 
 }
 
 .navbar .nav-item{
   padding: 20px 0px;
+
   cursor: pointer;
   position: relative;
   font-size: 18px;

@@ -1,6 +1,5 @@
 .logo-div{
-  margin-right: auto;
-  margin-left: 0px;
+  gap: 5px;
 }
 .logo-div .logo{
   width: 250px;

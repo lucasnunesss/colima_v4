@@ -1,0 +1,36 @@
+import { FaArrowTurnDown } from "react-icons/fa6"
+import Achievment from "../../components/achievment/Achievment"
+import { Link } from "react-scroll"
+
+const Hero = () => {
+  return (
+    <section id='hero'>
+      <div className="container">
+          <div className="column left">
+            <div className="hero-value">
+                <h1 className="title">Conheça
+                    inovações
+                    tecnológicas
+                    na Engenharia
+                    moderna</h1>
+                  <p className="description">Nos preocupamos com as necessidades dos nossos clientes, presando pela qualidade e prazos sempre.</p>
+            </div>
+            <Achievment />
+            <div className="flex-center buttons-wrapper">
+            <Link to="projetos" smooth={true} className="btn">
+            Projetos
+            </Link>
+            <Link to="contact" smooth={true} className="flex-center btn primary">
+                Fale conosco <FaArrowTurnDown />
+            </Link>
+            </div>
+          </div>
+          <div className="column hero-img-container">
+
+          </div>
+      </div>
+    </section>
+  )
+}
+
+export default Hero

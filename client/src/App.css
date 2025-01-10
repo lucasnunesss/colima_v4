@@ -110,6 +110,29 @@ img{
   }
 }
 
+.overlay-div{
+  background: rgba(255, 255, 255, 0.618);
+}
+
+.obj-contain {
+  object-fit: contain;
+}
+
+
+.blur-effect{
+  position: relative;
+}
+
+.blur-effect::before{
+  content: "";
+  position: absolute;
+  width: 250px;
+  height: 220px;
+  border-radius: 50%;
+  filter: blur(50px);
+  z-index: 0;
+}
+
 /* .text-gradient {
   -webkit-background-clip: text;
   background-clip: text;

@@ -15,7 +15,8 @@
 }
 
 .sidebar .sidebar-wrapper{
- padding: 1rem;
+ padding: 1rem 0;
+
 }
 
 .sidebar .top{
@@ -30,6 +31,8 @@
   font-weight: 500;
   cursor: pointer;
   transition: 0.4s ease-in-out;
+  background: white;
+
 
 }
 

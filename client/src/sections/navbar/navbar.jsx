@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
       <Redes />
       <div className="flex-center">
-          <Link to="#" className="flex-center btn primary" smooth={true}>
+          <Link to="#" className={`${!openSidebar ? "flex-center btn primary" : "sumir"}`} smooth={true}>
                 Saiba Mais
               <FaArrowTurnDown/>
           </Link>

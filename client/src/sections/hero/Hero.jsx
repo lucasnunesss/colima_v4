@@ -16,7 +16,7 @@ const Hero = () => {
                       tecnológicas
                       na Engenharia
                       moderna</h1>
-                    <p className="description">Nos preocupamos com as necessidades dos nossos clientes, presando pela qualidade e prazos sempre.</p>
+                    <p className="description">Na Collima Engenharia, utilizamos tecnologias inovadoras e talentos excepcionais para desenvolver soluções eficientes e sustentáveis, sempre focando na excelência e na satisfação total dos nossos clientes.</p>
               </div>
               <Achievment />
               <div className="flex-center buttons-wrapper">

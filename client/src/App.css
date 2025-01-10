@@ -133,6 +133,16 @@ img{
   z-index: 0;
 }
 
+.section-header > .section-title{
+  margin-bottom: 20px;
+}
+
+.section-header > .section-description{
+  margin: 20px 0;
+  font-size: 16px;
+ 
+}
+
 /* .text-gradient {
   -webkit-background-clip: text;
   background-clip: text;

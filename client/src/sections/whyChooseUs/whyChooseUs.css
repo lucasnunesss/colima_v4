@@ -1,0 +1,24 @@
+#why{
+  background: #B0BDC7;
+}
+
+#why .container{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#why .why-item{
+  padding: 20px;
+}
+
+#why .why-item .icon{
+  font-size: 30px;
+}
+
+#why .why-item .why-title{
+  font-size: 16px;
+}
+
+#why .muted{
+  font-size: 14px;
+}

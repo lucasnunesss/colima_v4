@@ -8,6 +8,22 @@
 
 }
 
+.navbar.drop{
+  position: sticky;
+  left: 0;
+  top: 0;
+  background: #30526B;
+  -webkit-backdrop-filter: blur(90px);
+  backdrop-filter: blur(90px);
+  overflow: hidden;
+  animation: drop 1s;
+}
+
+@keyframes drop {
+    0%{top:-100%}
+    100%{top:0}
+}
+
 .navbar .nav-links{
   display: flex;
   gap: 10rem;

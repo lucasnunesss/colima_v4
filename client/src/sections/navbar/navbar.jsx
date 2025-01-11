@@ -7,12 +7,14 @@ import { FaArrowTurnDown } from "react-icons/fa6";
 import { FiMenu } from "react-icons/fi";
 import Sidebar from "../../components/sidebar/Sidebar"
 import { useState } from "react"
+import useNavbar from "../../hooks/useNavbar"
 const Navbar = () => {
   const [openSidebar, setOpenSidebar] = useState(false)
+  const {showNavbar} = useNavbar()
   return (
     <>
     <Sidebar openSidebar={openSidebar} onClose={()=>setOpenSidebar(!openSidebar)} />
-    <nav className="flex-center navbar">
+    <nav className={`flex-center navbar ${showNavbar ? "drop" : ""}`}>
       <Logo />
       <div className="nav-links">
           {nav.map((item, index)=> (

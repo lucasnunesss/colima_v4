@@ -1,0 +1,22 @@
+#portfolio{
+ background: #B0BDC7;
+
+}
+
+#portfolio .portfolio-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+}
+
+#portfolio .portfolio{
+    --webkit-backdrop-filter: blur(70px);
+    backdrop-filter: blur(70px);
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+#portfolio .portfolio .img-container{
+  width: 120px;
+  height: 120px;
+}

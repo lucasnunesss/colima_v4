@@ -143,6 +143,24 @@ img{
  
 }
 
+.sub-heading{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.line-clamp2 {
+  display: --webkit-box;
+  --webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  --webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.muted{
+  color: #ffffffdb;
+}
 /* .text-gradient {
   -webkit-background-clip: text;
   background-clip: text;

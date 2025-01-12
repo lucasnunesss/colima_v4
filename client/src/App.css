@@ -161,6 +161,10 @@ img{
 .muted{
   color: #ffffffdb;
 }
+
+input, textarea{
+  background: transparent;
+}
 /* .text-gradient {
   -webkit-background-clip: text;
   background-clip: text;

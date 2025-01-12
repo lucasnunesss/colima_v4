@@ -16,6 +16,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import { RiTeamFill } from "react-icons/ri";
+import {main1, main2, main3, main4, main5} from "./src/assets"
 export const nav = [
   {
     label: "Quem Somos",
@@ -85,4 +86,32 @@ export const why = [
 
   }
 
+]
+
+export const portfolio = [
+  {
+    title: "Projetos de Incêndio",
+    image: main1,
+    description: "Um projeto de incêndio bem planejado pode salvar vidas. Todos os aspectos da segurança, desde a detecção precoce de incêndio até as rotas de evacuação e os sistemas de supressão de incêndios"
+  },
+  {
+    title: "Projetos de AVCB",
+    image: main2,
+    description: "Um projeto AVCB bem elaborado é essencial para garantir a segurança de uma edificação e cumprimento das normas e regulamentos de segurança contra incêndio. Portanto, é importante contar com profissionais qualificados e experientes na elaboração desse tipo de projeto"
+  },
+  {
+    title: "Proejtos de Detecção",
+    image: main3,
+    description: "Fazer um projeto de detecção é essencial para garantir a segurança das pessoas, proteger propriedades, cumprir regulamentos, reduzir custos associados a incêndios e manter a reputação da empresa. É um investimento crítico na segurança e proteção de uma edificação"
+  },
+  {
+    title: "Projetos de Instalações Hidráulicas",
+    image: main4,
+    description: "Projetos de instalações hidraúlicas é fundamental para garantir o uso adequado e sustentável dos recursos hídricos, promover a saúde públic e proporcionar conforto e segurançã aos usuário das instalações"
+  },
+  {
+    title: "Projetos de Reengenharia",
+    image: main5,
+    description: "Um projeto de reengenharia bem-sucedido pode resultar em melhorias significativas na eficiência operacional, na qualidade dos produtos e servições, na satisfação do cliente e na competitividade da organização no mercado"
+  }
 ]

@@ -5,6 +5,8 @@ import Hero from './sections/hero/Hero'
 import About from './sections/about/About'
 import WhyChooseUs from './sections/whyChooseUs/WhyChooseUs'
 import "swiper/css"
+import Portfolio from './sections/portfolio/Portfolio'
+
 function App() {
 
 
@@ -14,6 +16,7 @@ function App() {
       <Hero />
       <About />
       <WhyChooseUs />
+      <Portfolio />
     </>
   )
 }

@@ -115,3 +115,52 @@ export const portfolio = [
     description: "Um projeto de reengenharia bem-sucedido pode resultar em melhorias significativas na eficiência operacional, na qualidade dos produtos e servições, na satisfação do cliente e na competitividade da organização no mercado"
   }
 ]
+
+export const footer = [
+  {
+    title: "Company",
+    router: [
+      {
+        name: "Sobre",
+        href: "#"
+      },
+      {
+        name: "Nosso Time",
+        href: "#"
+      },
+      {
+        name: "Projetos",
+        href: "#"
+      },
+      {
+        name: "Contato",
+        href: "#"
+      }
+    ]
+  },
+  {
+    title: "Serviçoes",
+    router: [
+      {
+        name: "Incêndio",
+        href: "#"
+      },
+      {
+        name: "AVCB",
+        href: "#"
+      },
+      {
+        name: "Detecção",
+        href: "#"
+      },
+      {
+        name: "Instalações Hidráulicas",
+        href: "#"
+      },
+      {
+        name: "Reengenharia",
+        href: "#"
+      }
+    ]
+  }
+]

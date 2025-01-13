@@ -7,6 +7,7 @@ import WhyChooseUs from './sections/whyChooseUs/WhyChooseUs'
 import "swiper/css"
 import Projects from './sections/projects/Projects'
 import Contact from './sections/contact/Contact'
+import Footer from './sections/footer/Footer'
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <WhyChooseUs />
       <Projects />
       <Contact />
+      <Footer />
     </>
   )
 }

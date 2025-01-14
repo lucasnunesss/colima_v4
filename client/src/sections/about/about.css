@@ -1,0 +1,33 @@
+#about{
+  position: relative;
+  background: #30526B;
+}
+
+#about .container{
+  display: grid;
+  grid-template-columns: 400px auto;
+  gap: 2rem;
+  background: #30526B;
+  border-top-left-radius: 100%;
+  overflow: visible;
+}
+
+#about .about-img{
+  border-radius: 1.5rem;
+  overflow: hidden;
+  max-width: 400px;
+  margin: auto;
+  border: solid 10px #30526B;
+}
+
+/* responsive */
+@media (max-width: 930px) {
+    #about .container{
+      grid-template-columns: 100%;
+      border-top-left-radius: 70%;
+    }
+}
+
+@media (max-width:500) {
+  
+}

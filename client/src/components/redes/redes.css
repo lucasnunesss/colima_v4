@@ -1,0 +1,9 @@
+.redes {
+  align-items: center;
+  gap: 5px;
+}
+
+.redes .icon{
+  border: solid 1px #ccc;
+  color: black;
+}

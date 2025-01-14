@@ -1,0 +1,7 @@
+export {default as escavadeira} from "./escavadeira.png"
+export {default as about} from "./header_img3.jpg"
+export {default as main1} from "./portfolio/main_1.jpg"
+export {default as main2} from "./portfolio/main_2.jpg"
+export {default as main3} from "./portfolio/main_3.jpg"
+export {default as main4} from "./portfolio/main_4.jpg"
+export {default as main5} from "./portfolio/main_5.jpg"

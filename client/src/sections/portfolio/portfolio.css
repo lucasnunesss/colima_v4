@@ -1,6 +1,6 @@
 #portfolio{
- background: #B0BDC7;
-
+ /* background: #B0BDC7; */
+  background-color: red;
 }
 
 #portfolio .portfolio-container{

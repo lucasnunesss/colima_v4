@@ -2,12 +2,15 @@ import { FaLocationCrosshairs } from "react-icons/fa6";
 import "./contact.css"
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
+import { about2 } from "../../assets";
 const Contact = () => {
   return (
    <section id="contact">
      <div className="overlay-div">
         <div className="container">
+ 
             <div className="flex left-container">
+          
               <div className="contact-info-wrapper">
                 {/* Contact Info */}
                 <div className="flex contact-info">
@@ -49,8 +52,11 @@ const Contact = () => {
                 </div>
                 {/* Contact info end */}
               </div>
-
+              <div className="about2">
+              <img  src={about2} alt="" />
             </div>
+            </div>
+        
             <form className="forms">
                   <div className="form-top">
                       <h3 className="sub-heading">Faça um orçamento online</h3>
@@ -71,6 +77,7 @@ const Contact = () => {
                       <button type="button" className="btn primary">Enviar</button>
                   </div>
             </form>
+      
         </div>
      </div>
    </section>

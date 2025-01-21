@@ -3,7 +3,7 @@ import { nav } from "../../../data"
 import { Link } from "react-scroll"
 import "./navbar.css"
 import Redes from "../../components/redes/Redes"
-import { FaArrowTurnDown } from "react-icons/fa6";
+
 import { FiMenu } from "react-icons/fi";
 import Sidebar from "../../components/sidebar/Sidebar"
 import { useState } from "react"
@@ -25,10 +25,7 @@ const Navbar = () => {
       </div>
       <Redes />
       <div className="flex-center">
-          <Link to="#" className={`${!openSidebar ? "flex-center btn primary" : "sumir"}`} smooth={true}>
-                Saiba Mais
-              <FaArrowTurnDown/>
-          </Link>
+        
         <button className={`${!openSidebar ? "flex-center icon menu-btn" : "sumir"}`} onClick={() => setOpenSidebar(!openSidebar)}>
           <FiMenu />
         </button>

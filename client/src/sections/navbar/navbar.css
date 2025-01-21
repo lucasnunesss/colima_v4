@@ -1,4 +1,5 @@
 .navbar{
+  display: flex;
   justify-content: space-between;
    background-color: #30526B; 
   padding: 0 1rem;
@@ -28,6 +29,7 @@
   display: flex;
   gap: 10rem;
 
+ 
 }
 
 .navbar .nav-item{
@@ -67,7 +69,18 @@
   display: none;
 }
 
+
 /* Make the navbar responsive */
+
+
+@media(max-width:1556px){
+
+
+  .navbar .nav-links{
+    gap: 3rem;
+  }
+}
+
 @media(max-width:1156px){
   .navbar .redes{
     display: none;

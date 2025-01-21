@@ -1,6 +1,7 @@
 #about{
   position: relative;
   background: #30526B;
+
 }
 
 #about .container{
@@ -10,6 +11,7 @@
   background: #30526B;
   border-top-left-radius: 100%;
   overflow: visible;
+ 
 }
 
 #about .about-img{
@@ -18,7 +20,15 @@
   max-width: 400px;
   margin: auto;
   border: solid 10px #30526B;
+  
 }
+
+#about .about-img > img{
+  width: 100%;
+  background-color: red;
+  height: 60vh;
+}
+
 
 /* responsive */
 @media (max-width: 930px) {
@@ -30,4 +40,14 @@
 
 @media (max-width:500) {
   
+}
+
+
+.clients{
+  max-width: 100%;
+}
+
+.clients .client-img{
+  width: 50%;
+
 }

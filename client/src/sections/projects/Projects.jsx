@@ -15,7 +15,8 @@ const Projects = () => {
             speed={5000}
             modules={[Autoplay]}
             breakpoints={{
-              600: {slidesPerView: 3}
+              900: {slidesPerView: 3},
+              600: {slidesPerView: 2}
             }}
             className="project-container"
           >

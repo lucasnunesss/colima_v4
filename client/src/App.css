@@ -112,6 +112,7 @@ img{
 
 .overlay-div{
   background: rgba(255, 255, 255, 0.618);
+
 }
 
 .obj-contain {
@@ -131,6 +132,11 @@ img{
   border-radius: 50%;
   filter: blur(50px);
   z-index: 0;
+}
+
+.section-header{
+  color: #ffffff;
+  /* margin-bottom: -50px; */
 }
 
 .section-header > .section-title{

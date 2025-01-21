@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 2rem;
-  max-width: 900px;
+  max-width: 80%;
   margin: auto;
 }
 
@@ -46,7 +46,7 @@
 }
 
 #contact textarea.control{
-  height: 100px;
+  height: 400px;
   padding: 10px;
 }
 
@@ -59,6 +59,9 @@
   padding: 15px 20px;
 }
 
+.about2 > img{
+  border-radius: 20px;
+}
 
 /* RESPONSIVE */
 @media (max-width:930px) {

@@ -4,7 +4,7 @@
 
 #footer .container{
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(3,1fr);
   gap: 1.5rem;
   background-color:#30526B;
 }
@@ -29,11 +29,7 @@
 }
 
 /* small screens */
-@media (max-width:930px) {
-  #footer .container {
-    grid-template-columns: repeat(2,1fr);
-  }
-}
+
 
 @media (max-width: 768px) {
   #footer .container{

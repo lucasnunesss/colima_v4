@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './sections/navbar/navbar'
 import Hero from './sections/hero/Hero'
 import About from './sections/about/About'
-import WhyChooseUs from '/vercel/path0/client/src/sections/whyChooseUs/WhyChooseUs.jsx'
+import WhyChooseUs from './sections/whyChooseUs/WhyChooseUs'
 import "swiper/css"
 import Projects from './sections/projects/Projects'
 import Contact from './sections/contact/Contact'

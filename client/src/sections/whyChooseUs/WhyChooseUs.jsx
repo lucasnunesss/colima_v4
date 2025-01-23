@@ -1,5 +1,5 @@
 import {Swiper, SwiperSlide} from "swiper/react"
-import "./WhyChooseUs.css"
+import "./whyChooseUs.css"
 import {Autoplay} from "swiper/modules"
 import { why } from "../../../data"
 const WhyChooseUs = () => {
